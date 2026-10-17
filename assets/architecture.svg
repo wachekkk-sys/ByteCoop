@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="ttl dsc">
+<title id="ttl">ByteCoop 0.3 architecture</title><desc id="dsc">A user directs a chat interface, Mesh orchestrates agents, Cortex holds shared memory, and approved requests go to OpenAI or DeepSeek.</desc>
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#0b1331"/><stop offset="1" stop-color="#111f3e"/></linearGradient><linearGradient id="l" x2="1"><stop stop-color="#6096ff"/><stop offset="1" stop-color="#52d6d3"/></linearGradient></defs>
+<rect width="1200" height="350" rx="20" fill="url(#b)"/>
+<g stroke="#364e76" stroke-width="2" fill="none"><path d="M236 175H330"/><path d="M565 175H655"/><path d="M896 175H986"/><path d="M779 125V78H1085V125"/><path d="M779 226V277H1085V226"/></g>
+<g fill="#78b6fa"><path d="m323 169 12 6-12 6z"/><path d="m648 169 12 6-12 6z"/><path d="m979 169 12 6-12 6z"/></g>
+<rect x="35" y="122" width="200" height="106" rx="16" fill="#1d3156" stroke="#3e5b8c"/>
+<circle cx="69" cy="158" r="14" fill="#5d8fff"/><text x="100" y="166" fill="#fff" font-size="24" font-weight="700" font-family="Arial, sans-serif">Human</text><text x="57" y="196" fill="#a5b9d7" font-size="14" font-family="Arial, sans-serif">Approves every</text><text x="57" y="213" fill="#a5b9d7" font-size="14" font-family="Arial, sans-serif">paid provider call</text>
+<rect x="335" y="122" width="230" height="106" rx="16" fill="#1d3156" stroke="#5277c2"/>
+<text x="364" y="166" fill="#fff" font-size="25" font-weight="700" font-family="Arial, sans-serif">Chat interface</text><text x="364" y="196" fill="#a5b9d7" font-size="14" font-family="Arial, sans-serif">Projects · conversations</text><text x="364" y="214" fill="#a5b9d7" font-size="14" font-family="Arial, sans-serif">Context &amp; cost review</text>
+<rect x="660" y="122" width="235" height="106" rx="16" fill="#223e70" stroke="#6096ff" stroke-width="2"/>
+<text x="690" y="166" fill="#fff" font-size="27" font-weight="700" font-family="Arial, sans-serif">Mesh</text><text x="690" y="196" fill="#a5b9d7" font-size="14" font-family="Arial, sans-serif">Tasks · handoffs</text><text x="690" y="214" fill="#a5b9d7" font-size="14" font-family="Arial, sans-serif">Approval · audit trail</text>
+<rect x="991" y="122" width="174" height="106" rx="16" fill="#163746" stroke="#50cbc8" stroke-width="2"/>
+<text x="1012" y="166" fill="#e9ffff" font-size="27" font-weight="700" font-family="Arial, sans-serif">Cortex</text><text x="1012" y="196" fill="#9bc9ce" font-size="14" font-family="Arial, sans-serif">Decisions · memory</text><text x="1012" y="214" fill="#9bc9ce" font-size="14" font-family="Arial, sans-serif">Access · provenance</text>
+<rect x="971" y="28" width="200" height="52" rx="12" fill="#162947" stroke="#4a74b8"/><text x="1071" y="59" text-anchor="middle" fill="#d7e7ff" font-size="18" font-weight="700" font-family="Arial, sans-serif">OpenAI</text>
+<rect x="971" y="271" width="200" height="52" rx="12" fill="#162947" stroke="#4a74b8"/><text x="1071" y="302" text-anchor="middle" fill="#d7e7ff" font-size="18" font-weight="700" font-family="Arial, sans-serif">DeepSeek</text>
+<text x="600" y="312" fill="#758eb7" text-anchor="middle" font-size="15" font-family="Arial, sans-serif">Conceptual overview · trust boundaries enforced server-side</text>
+</svg>
